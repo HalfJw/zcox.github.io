@@ -1,5 +1,5 @@
 {
-    "homepage": "https://halfjw.github.io/zcox.github.io/",
+    "homepage": "https://halfjw.github.io/zcox.github.io",
     "scripts": {
       "start": "react-scripts start",
       "build": "react-scripts build",

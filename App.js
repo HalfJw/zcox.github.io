@@ -1,11 +1,11 @@
 import React from 'react';
 import Flower from './Flower';
-import './index.css';  // Ensure Tailwind CSS is imported if configured locally
+import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <Flower />  {/* This renders the flower component */}
+      <Flower />
     </div>
   );
 }
