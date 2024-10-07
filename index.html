@@ -4,40 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A React application styled with Tailwind CSS.">
-  <title>React with Tailwind CSS</title>
-  <!-- Tailwind CSS CDN -->
+  <meta name="description" content="React Flower Illustration">
+  <meta name="author" content="Your Name">
+  <title>Flower Illustration</title>
+  <!-- Include Tailwind CSS if needed via CDN -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Optional: Include your own stylesheet for additional styles -->
-  <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body class="bg-gray-100 font-sans">
-  <!-- Root element for React -->
-  <div id="root" class="min-h-screen flex items-center justify-center"></div>
-
-  <!-- React and ReactDOM scripts -->
-  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-
-  <!-- Your compiled React script -->
-  <script src="./build/static/js/main.js"></script>
-
-  <!-- If you don't have a React build yet, you can include a sample component here -->
-  <script>
-    import React from 'react';
-    import Flower from './Flower';
-    function App() {
-        return (
-    <div className="App">
-      <Flower />
-    </div>
-  );    
-    }
-    export default App;
-
-    ReactDOM.render(React.createElement(App), document.getElementById('root'));
-  </script>
+<body class="bg-blue-50">
+  <!-- Root div for React to render the application -->
+  <div id="root"></div>
 </body>
 
 </html>
