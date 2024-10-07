@@ -25,12 +25,16 @@
 
   <!-- If you don't have a React build yet, you can include a sample component here -->
   <script>
+    import React from 'react';
+    import Flower from './Flower';
     function App() {
-      return React.createElement('div', { className: 'text-center' },
-        React.createElement('h1', { className: 'text-4xl text-blue-600 font-bold' }, 'Hello, React & Tailwind CSS!'),
-        React.createElement('p', { className: 'text-lg text-gray-700 mt-4' }, 'This is a simple React app styled using Tailwind CSS.')
-      );
+        return (
+    <div className="App">
+      <Flower />
+    </div>
+  );    
     }
+    export default App;
 
     ReactDOM.render(React.createElement(App), document.getElementById('root'));
   </script>
