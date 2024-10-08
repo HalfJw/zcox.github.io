@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/zcox.github.io/static/css/main.767ca9e6.css",
-    "main.js": "/zcox.github.io/static/js/main.0a0ac941.js",
+    "main.css": "/zcox.github.io/static/css/main.18d1902d.css",
+    "main.js": "/zcox.github.io/static/js/main.cbe71ff2.js",
     "index.html": "/zcox.github.io/index.html",
-    "main.767ca9e6.css.map": "/zcox.github.io/static/css/main.767ca9e6.css.map",
-    "main.0a0ac941.js.map": "/zcox.github.io/static/js/main.0a0ac941.js.map"
+    "main.18d1902d.css.map": "/zcox.github.io/static/css/main.18d1902d.css.map",
+    "main.cbe71ff2.js.map": "/zcox.github.io/static/js/main.cbe71ff2.js.map"
   },
   "entrypoints": [
-    "static/css/main.767ca9e6.css",
-    "static/js/main.0a0ac941.js"
+    "static/css/main.18d1902d.css",
+    "static/js/main.cbe71ff2.js"
   ]
 }
