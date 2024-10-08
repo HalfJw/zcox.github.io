@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zcox.github.io/static/css/main.767ca9e6.css",
+    "main.js": "/zcox.github.io/static/js/main.0a0ac941.js",
+    "index.html": "/zcox.github.io/index.html",
+    "main.767ca9e6.css.map": "/zcox.github.io/static/css/main.767ca9e6.css.map",
+    "main.0a0ac941.js.map": "/zcox.github.io/static/js/main.0a0ac941.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.767ca9e6.css",
+    "static/js/main.0a0ac941.js"
+  ]
+}
