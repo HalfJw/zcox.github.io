@@ -1,0 +1,23 @@
+{
+    "name": "bouquet-app",
+    "version": "0.1.0",
+    "homepage": "https://halfjw.github.io/zcox.github.io/",
+    "private": true,
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-scripts": "5.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+      "gh-pages": "^4.0.0"
+    }
+  }
+  

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Bouquet</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow-y: auto; /* Enables vertical scrolling */
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0fff0;
+      color: #2e8b57;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; /* Align elements from the top */
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+
+    /* Bouquet Container */
+    .bouquet-container {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin-bottom: 50px; /* Space between flowers and header */
+    }
+
+    .flower {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      animation: flowerRise 3s ease-out forwards;
+    }
+
+    .stem {
+      position: absolute;
+      width: 10px;
+      height: 300px;
+      background-color: #4caf50;
+      bottom: 0;
+      left: 45px;
+      transform-origin: bottom center;
+      animation: stemGrow 3s ease-out forwards;
+    }
+
+    .petal {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: #ff69b4;
+      border-radius: 50% 0;
+      transform-origin: bottom right;
+    }
+
+    .petal:nth-child(1) { transform: rotate(0deg); }
+    .petal:nth-child(2) { transform: rotate(72deg); }
+    .petal:nth-child(3) { transform: rotate(144deg); }
+    .petal:nth-child(4) { transform: rotate(216deg); }
+    .petal:nth-child(5) { transform: rotate(288deg); }
+
+    .center {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #ffd700;
+      border-radius: 50%;
+      top: 30px;
+      left: 30px;
+    }
+
+    @keyframes flowerRise {
+      from { transform: translateY(400px); }
+      to { transform: translateY(0); }
+    }
+
+    @keyframes stemGrow {
+      from { transform: translateY(400px); }
+      to { transform: translateY(180px); }
+    }
+
+    /* Header Container */
+    .header-container {
+      margin-top: 300px; /* Space between flowers and the header */
+      text-align: center;
+    }
+
+    /* Float the image to the right */
+    .header-container img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      float: right; /* Floats the image to the right */
+      margin-left: 20px; /* Adds space between the text and the image */
+    }
+
+    p {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 50px; /* Add bottom space to prevent text cutoff */
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Birthday Princess</h1>
+
+  <!-- Bouquet Container with Flowers -->
+  <div class="bouquet-container">
+    <div class="flower" style="left: 0;">
+      <div class="stem" style="height: 250px;"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="center"></div>
+    </div>
+    <div class="flower" style="left: 100px; top: 50px;">
+      <div class="stem" style="height: 200px;"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="center"></div>
+    </div>
+    <div class="flower" style="left: 200px;">
+      <div class="stem" style="height: 250px;"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="petal"></div>
+      <div class="center"></div>
+    </div>
+  </div>
+
+  <!-- Header Container for Image and Text -->
+  <div class="header-container">
+    <h2>Why I love you and some favorite memories</h2>
+    <p>I love you so very much Princess. Here are some funny/favorite photos of mine. You are my favorite person to be around. You give me so much joy and satisfaction. I think one of the real times that I knew I would marry you is when I was thinking about after college, you were there in my brain rent free. Cooking with you, being with our pets, and loving on you is my dream. I believe that whatever issues we run into, we can get through it together. Baby, I really love you and I hope you enjoy this little collage of pictures I found in my camera roll or us/you from over the years. </p> 
+    <!-- Replace the src with the path to your image -->
+    <img src="pictures\on_sholders.jpg" alt="Camila on my sholders">
+    <p></p>
+    
+
+
+    </div>
+</body>
+</html>
