@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beautiful Bouquet</title>
   <style>
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 40px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
     html, body {
       height: 100%;
       margin: 0;
@@ -150,11 +166,58 @@
     <h2>Why I love you and some favorite memories</h2>
     <p>I love you so very much Princess. Here are some funny/favorite photos of mine. You are my favorite person to be around. You give me so much joy and satisfaction. I think one of the real times that I knew I would marry you is when I was thinking about after college, you were there in my brain rent free. Cooking with you, being with our pets, and loving on you is my dream. I believe that whatever issues we run into, we can get through it together. Baby, I really love you and I hope you enjoy this little collage of pictures I found in my camera roll or us/you from over the years. </p> 
     <!-- Replace the src with the path to your image -->
-    <img src="pictures\on_sholders.jpg" alt="Camila on my sholders">
-    <p></p>
-    
-
-
+    <div class="row">
+      <div class="column">
+        <img src="pictures\on_sholders.jpg">
+        <img src="pictures\bald.jpg">
+        <img src="pictures\c_and_z_1.jpg">
+        <img src="pictures\c_and_z_2.jpg">
+        <img src="pictures\c_and_z_3.jpg">
+        <img src="pictures\c_and_z_4.jpg">
+        <img src="pictures\c_and_z_5.jpg">
+        <img src="pictures\c_and_cat_2.jpg">
+        <img src="pictures\c_and_z_6.jpg">
+        <img src="pictures\c_and_z_7.jpg">
+        <img src="pictures\c_and_z_8.jpg">
+        <img src="pictures\c_cat_1.jpg">
+        <img src="pictures\camila_hot.jpg">
+        <img src="pictures\five_years.jpg">
+        <img src="pictures\flipping_off.jpg">
+        <img src="pictures\food.jpg">
+        <img src="pictures\MULCH.jpg">
+        <img src="pictures\party.jpg">
+        <img src="pictures\sus.jpg">
+        <img src="pictures\under_bed.jpg">
+        <img src="pictures\white.jpg">
+        <img src="pictures\youngersholders.jpeg">
+      </div>
+      <!-- <div class="column">
+        <img src="pictures\c_and_z_6.jpg">
+        <img src="pictures\c_and_z_7.jpg">
+        <img src="pictures\c_and_z_8.jpg">
+        <img src="pictures\c_cat_1.jpg">
+        <img src="pictures\camila_hot.jpg">
+        <img src="pictures\five_years.jpg">
+      </div>
+      <div class="column">
+        <img src="pictures\flipping_off.jpg">
+        <img src="pictures\food.jpg">
+        <img src="pictures\MULCH.jpg">
+        <img src="pictures\party.jpg">
+        <img src="pictures\sus.jpg">
+        <img src="pictures\under_bed.jpg">
+        <img src="pictures\white.jpg">
+        <img src="pictures\youngersholders.jpeg">
+      </div> -->
+      <!-- <div class="column">
+        <img src="underwater.jpg">
+        <img src="ocean.jpg">
+        <img src="wedding.jpg">
+        <img src="mountainskies.jpg">
+        <img src="rocks.jpg">
+        <img src="underwater.jpg">
+      </div> -->
+    </div>
     </div>
 </body>
 </html>
