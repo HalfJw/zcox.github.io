@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beautiful Bouquet</title>
   <style>
+    .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
     html, body {
       height: 100%;
       margin: 0;
@@ -150,8 +166,42 @@
     <h2>Why I love you and some favorite memories</h2>
     <p>I love you so very much Princess. Here are some funny/favorite photos of mine. You are my favorite person to be around. You give me so much joy and satisfaction. I think one of the real times that I knew I would marry you is when I was thinking about after college, you were there in my brain rent free. Cooking with you, being with our pets, and loving on you is my dream. I believe that whatever issues we run into, we can get through it together. Baby, I really love you and I hope you enjoy this little collage of pictures I found in my camera roll or us/you from over the years. </p> 
     <!-- Replace the src with the path to your image -->
-    <img src="pictures\on_sholders.jpg" alt="Camila on my sholders">
-    <p></p>
+    <div class="row">
+      <div class="column">
+        <img src="pictures\on_sholders.jpg">
+        <img src="pictures\on_sholders.jpg">
+        <img src="pictures\on_sholders.jpg">
+        <img src="paris.jpg">
+        <img src="nature.jpg">
+        <img src="mist.jpg">
+        <img src="paris.jpg">
+      </div>
+      <div class="column">
+        <img src="underwater.jpg">
+        <img src="ocean.jpg">
+        <img src="wedding.jpg">
+        <img src="mountainskies.jpg">
+        <img src="rocks.jpg">
+        <img src="underwater.jpg">
+      </div>
+      <div class="column">
+        <img src="wedding.jpg">
+        <img src="rocks.jpg">
+        <img src="falls2.jpg">
+        <img src="paris.jpg">
+        <img src="nature.jpg">
+        <img src="mist.jpg">
+        <img src="paris.jpg">
+      </div>
+      <div class="column">
+        <img src="underwater.jpg">
+        <img src="ocean.jpg">
+        <img src="wedding.jpg">
+        <img src="mountainskies.jpg">
+        <img src="rocks.jpg">
+        <img src="underwater.jpg">
+      </div>
+    </div>
     
 
 
